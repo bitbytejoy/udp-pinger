@@ -17,3 +17,17 @@ Flow 2
 * The ping UDP packet gets lost.
 * The client waits 5 seconds for a response.
 * The client prints that the packet got lost.
+
+### Usage
+
+```
+    python Server.py $listening_address $listening_port
+    python Client.py $server_address $server_port
+```
+
+Example:
+
+```
+    python Server.py localhost 9999
+    python Client.py localhost 9999
+```
